@@ -1,5 +1,7 @@
 #pragma once
 
+// Имплементация на едносвързан списък
+
 class SinglyLinkedList
 {
 public:
