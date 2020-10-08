@@ -2,6 +2,9 @@
 
 ***Едносвързан списък***
 
+[Имплементация](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week01/SinglyLinkedList-Implementation)
+[Решения на задачите](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week01/SinglyLinkedList-Tasks)
+
 **Задача 1:** 
 
 Чрез директно използване на възлите на едносвързан списък, да се дефинира функцията void swapWithSecond(Node* &first, int element), която намира подадената стойност в списъка и я разменя със стойността на елемента, намиращ се на две позиции напред в списъка (ако е възможно). Ако списъкът не съдържа подадената стойност се извежда съобщение, че не е възможна размяна.
