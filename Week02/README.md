@@ -47,5 +47,5 @@ reverseFirstK(first, 4): 4 -> 3 -> 2 -> 1 -> 5 -> 6 -> 7 -> 8
 evens: 8 -> 2 -> 6 -> 4
 odds: 5 -> 9 -> 7 -> 3 
 Резултат:
-mergeLists(evens, odds): 8 -> 5 -> 2 -> 9 -> 6 -> 7 -> 4 -> 3
+mergeLists(evens, odds): 3 -> 4 -> 7 -> 6 -> 9 -> 2 -> 6 -> 8
 ```
