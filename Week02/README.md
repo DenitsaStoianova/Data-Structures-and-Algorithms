@@ -48,7 +48,7 @@ reverseFirstK(first, 4): 4 -> 3 -> 2 -> 1 -> 5 -> 6 -> 7 -> 8
 list1: 7 -> 3 -> 9 -> 6 -> 1 -> 4 -> 5
 list2: 6 -> 7 -> 5 -> 1 -> 9 -> 2 -> 3
 Резултат:
-constructReversed(list1, list2):1 -> 6 -> 9 -> 3 -> 7
+constructReversed(list1, list2): 1 -> 6 -> 9 -> 3 -> 7
 ```
 
 **Задача 5:**
