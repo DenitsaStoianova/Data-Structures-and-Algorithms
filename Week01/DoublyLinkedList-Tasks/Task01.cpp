@@ -87,7 +87,7 @@ int main()
 	pushBack(first, 5);
 	
 	print(first);
-	swapNodes(first, 9);
+	swapNodes(first, 4);
 	print(first);
 
 	return 0;
