@@ -62,6 +62,8 @@ rearrangeList(first): 6 -> 7 -> 8 -> 9 -> 10 -> 1 -> 2 -> 3 -> 4 -> 5
 
 [Имплементация](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week01/DoublyLinkedList-Implementation)
 
+[Имплементация с указател към последния елемент](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week01/DoublyLinkedList-LastPointerImplementation)
+
 [Решения на задачите](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week01/DoublyLinkedList-Tasks)
 
 ***Чрез директно използване на възлите на двусвързан списък да се решат следните задачи:***
