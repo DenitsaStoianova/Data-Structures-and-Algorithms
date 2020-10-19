@@ -1,4 +1,4 @@
-#Sorting Algorithms - Complexity
+# Sorting Algorithms - Complexity
 
 |  Algorithm	      |  Best          |  Worst       |  Average     |  Space/Worst  |
 |  ---------------  |  ------------  |  ----------  |  ----------  |  -----------  | 
