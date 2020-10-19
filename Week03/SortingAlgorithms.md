@@ -12,23 +12,23 @@
 # How to choose best sorting algorithm?
 
     Does the data fit in RAM? 
-    _________________________ 
+    ------------------------- 
           No  -> Mergesort
    
-          Yes -> **Are swaps expensive?** 
-   
+          Yes -> Are swaps expensive? 
+                 ---------------------
                       Yes -> Seection Sort
               
-                      No -> **Is the data mostly sorted?** 
-                          
+                      No -> Is the data mostly sorted? 
+                            --------------------------
                                    Yes -> Insertion Sort
                           
-                                   No -> **Can we use extra space?**
-                                      
+                                   No -> Can we use extra space?
+                                         -----------------------
                                                No -> Quicksort
                                        
-                                               Yes -> **Does it need to be stable?** 
-                                                   
+                                               Yes -> Does it need to be stable? 
+                                                      --------------------------
                                                             No -> Quicksort
                                                     
                                                             Yes -> Mergesort  
