@@ -12,15 +12,25 @@
 # How to choose best sorting algorithm?
 
 **Does the data fit in RAM?** 
+
    No  -> Mergesort
+   
    Yes -> **Are swaps expensive?** 
+   
               Yes -> Seection Sort
+              
               No -> **Is the data mostly sorted?** 
+                          
                           Yes -> Insertion Sort
+                          
                           No -> **Can we use extra space?**
-                                       No -> Quicksort
+                                      
+                                      No -> Quicksort
+                                       
                                        Yes -> **Does it need to be stable?** 
-                                                    No -> Quicksort
+                                                   
+                                                   No -> Quicksort
+                                                    
                                                     Yes -> Mergesort  
                      
                      
