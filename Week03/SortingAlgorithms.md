@@ -19,17 +19,17 @@
                  ---------------------
                       Yes -> Seection Sort
               
-                      No -> Is the data mostly sorted? 
-                            --------------------------
+                      No  -> Is the data mostly sorted? 
+                             --------------------------
                                    Yes -> Insertion Sort
                           
-                                   No -> Can we use extra space?
-                                         -----------------------
-                                               No -> Quicksort
+                                   No  -> Can we use extra space?
+                                          -----------------------
+                                               No  -> Quicksort
                                        
                                                Yes -> Does it need to be stable? 
                                                       --------------------------
-                                                            No -> Quicksort
+                                                            No  -> Quicksort
                                                     
                                                             Yes -> Mergesort  
                      
