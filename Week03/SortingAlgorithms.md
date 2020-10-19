@@ -11,8 +11,8 @@
 
 # How to choose best sorting algorithm?
 
-    **Does the data fit in RAM?** 
-
+    Does the data fit in RAM? 
+    _________________________ 
           No  -> Mergesort
    
           Yes -> **Are swaps expensive?** 
