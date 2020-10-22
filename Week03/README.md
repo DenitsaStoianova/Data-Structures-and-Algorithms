@@ -1,5 +1,7 @@
 # Двусвързан списък - сортиране
 
+Алгоритми за сортиране - [теория](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week03/SortingAlgorithms), [имплементация](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week03/SortingAlgorithms/Implementation.cpp) 
+
 ***Чрез директно използване на възлите на двусвързан списък да се решат следните задачи:***
 
 **Задача 1:**
@@ -11,9 +13,7 @@
 Входен списък: 5 <=> 3 <=> 7 <=> 5 <=> 2 <=> 5 <=> 6 <=> 3 <=> 6 <=> 9 
 Резултат: 2 <=> 3 <=> 5 <=> 6 <=> 7 <=> 9
 ```
-
-Алгоритми за сортиране - [имплементация](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week03/SortingAlgorithms/Implementation.cpp), 
-[теория](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week03/SortingAlgorithms)
+[Решение](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week03/Task01.cpp)
 
 # Стек
 
