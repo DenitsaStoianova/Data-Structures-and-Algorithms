@@ -12,7 +12,8 @@
 Резултат: 2 <=> 3 <=> 5 <=> 6 <=> 7 <=> 9
 ```
 
-Алгоритми за сортиране
+Алгоритми за сортиране - [имплементация](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week03/SortingAlgorithms/Implementation.cpp), 
+[теория](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week03/SortingAlgorithms)
 
 # Стек
 
