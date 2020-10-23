@@ -15,4 +15,4 @@
 
 Алгоритми за сортиране - [теория](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week03/SortingAlgorithms), [имплементация](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week03/SortingAlgorithms/Implementation.cpp) 
 
-Сортиране чрез сливане [на едносвързан списък](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week03/SortingAlgorithms/Mergesort-SLL.cpp)/[на двусвързан списък](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week03/SortingAlgorithms/Mergesort-DLL.cpp)
+Сортиране чрез сливане на [едносвързан списък](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week03/SortingAlgorithms/Mergesort-SLL.cpp)/[двусвързан списък](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week03/SortingAlgorithms/Mergesort-DLL.cpp)
