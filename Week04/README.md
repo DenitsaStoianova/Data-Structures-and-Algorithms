@@ -3,7 +3,7 @@
 
 Приложения
 
-Имплементация с динамичен масив
+[Имплементация с динамичен масив](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week04/DynamicArrayImplementation)
 
 Имплементация със свързан списък
 
