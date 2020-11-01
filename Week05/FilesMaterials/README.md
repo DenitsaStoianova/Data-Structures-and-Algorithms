@@ -63,12 +63,38 @@ else
 
 ```
 - ifstream - get position
+
 - ofstream - put position
+
 - fstream - get and put positions
 ```
 
+**Тези позиции могат да се наблюдават и модифицират, като се използват следните функции:**
 
+```
+Връщат стойност от тип streampos, която представлява съответната get/put позиция във файла 
 
+- tellg() - current get position
+
+- tellp() - current put position
+```
+
+```
+Позволяват да се променя местоположението на get/put позицията във файла
+
+- seekg(position) или seekg(offset, direction)
+
+- seekp(position) или seekp(offset, direction)
+```
+
+```
+position - директната позиция на пойнтера
+offset - колко позиции да бъде отместен пойнтера
+direction - откъде да започне отброяването на позициите за отместване, има три възможни случая:
+- ios::beg - от началото на файла
+- ios::cur - от текущата позиция на пойнтера
+- ioss::end - от края на файла
+```
 
 
 
