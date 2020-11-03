@@ -2,6 +2,8 @@
 
 [Основни операции с двусвързан списък](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week02/BasicOperations.cpp)
 
+[Решения на задачите](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week02/Solutions)
+
 Чрез директно използване на възлите на двусвързан списък да се решат следните задачи:
 
 **Задача 1:**
