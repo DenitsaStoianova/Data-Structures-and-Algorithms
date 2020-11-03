@@ -5,6 +5,8 @@
 
 [Имплементация със свързан списък](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week04/LinkedListImplementation)
 
+[Решения на задачите](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week04/Solutions)
+
 ***Използвайте структурата от данни стек за решаването на следните задачи:***
 
 **Задача 1:**
