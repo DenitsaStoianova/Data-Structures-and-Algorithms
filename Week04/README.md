@@ -1,11 +1,9 @@
 
 # Седмица 4 - Стек (задачи със списъци)
 
-Приложения
-
 [Имплементация с динамичен масив](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week04/DynamicArrayImplementation)
 
-Имплементация със свързан списък
+[Имплементация със свързан списък](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week04/LinkedListImplementation)
 
 ***Използвайте структурата от данни стек за решаването на следните задачи:***
 
