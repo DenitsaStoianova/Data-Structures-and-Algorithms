@@ -1,5 +1,11 @@
 # Седмица 5 - Стек (оценка на аритметичен израз, работа с  файлове)
 
+[Обща теория за файлове](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week05/FilesMaterials/README.md)
+
+[Примери за работа с текстови файлове](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week05/FilesMaterials/TextFiles.cpp)
+
+[Примери за работа с двоични файлове](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week05/FilesMaterials/BinaryFiles.cpp)
+
 ***Напишете програма, която:***
 
 **Задача 1:**
