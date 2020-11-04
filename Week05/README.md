@@ -6,6 +6,8 @@
 
 [Примери за работа с двоични файлове](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week05/FilesMaterials/BinaryFiles.cpp)
 
+[Решения на задачите](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week05/Solutions)
+
 ***Напишете програма, която:***
 
 **Задача 1:**
