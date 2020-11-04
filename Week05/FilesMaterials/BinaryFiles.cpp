@@ -207,7 +207,7 @@ int main()
 	std::string fileName = "binaryFile.dat";
 
 	std::string headerFile; // заглавие на файла
-	int numberOfWords; // брой думи, които ще се запишат
+	int numberOfWords; // броя на думите в текста, който ще се запише (метаданни)
 	std::cin >> headerFile >> numberOfWords;
 
 	std::string information; // текст, който ще бъде записан във файла (състои се от числа и символни низове)
