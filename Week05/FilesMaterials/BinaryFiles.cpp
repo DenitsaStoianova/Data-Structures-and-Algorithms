@@ -17,7 +17,7 @@ int getFileSize(const std::string& fileName)
 		return -1;
 	}
 
-	std::fstream::pos_type size = file.tellg(); // взимане на текущата позиция на указателя (намира се в края на файла)
+	std::fstream::pos_type size = file.tellg(); // взимаме текущата позиция на указателя (намира се в края на файла)
 	file.close();
 
 	return (int)size;
