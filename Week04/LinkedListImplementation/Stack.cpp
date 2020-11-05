@@ -59,7 +59,10 @@ Stack::~Stack()
 void Stack::push(int data)
 {
 	Node* newNode = new Node(data);
-	newNode->next = this->tos;
+	if(this->tos != nullptr)
+	{
+		newNode->next = this->tos;
+	}
 	this->tos = newNode;
 	this->size++;
 }
