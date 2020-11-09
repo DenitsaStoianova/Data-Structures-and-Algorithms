@@ -80,6 +80,15 @@ struct TreeNode
     Height of tree: 4
 ```
 
+# Properties of a binary tree:
+
+```
+1. Minimum number of nodes in a binary tree of height H = H + 1
+2. Maximum number of nodes in a binary tree of height H = 2^H+1 – 1
+3. Total Number of leaf nodes in a Binary Tree = Total Number of nodes with 2 children + 1
+4. Maximum number of nodes at any level ‘L’ in a binary tree = 2^L
+```
+
 # Main applications of trees:
 
 ```
