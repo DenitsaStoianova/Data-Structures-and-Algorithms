@@ -88,9 +88,9 @@
 Примерно дърво 2:                                            
                     30                            
                    /   \
-                  10     5
-                 / \      \
-                4   6      5
+                  10    5
+                 / \     \
+                4   6     5
 Резултат:
 1. checkChildrenSum(root) -> false
 2. checkSubtreeSum(root) -> true
