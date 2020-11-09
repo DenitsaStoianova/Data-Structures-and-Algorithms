@@ -36,6 +36,13 @@ struct TreeNode
 };
 ```
 
+# Tree Terminology
+
+```
+
+
+```
+
 # Main applications of trees:
 
 ```
