@@ -36,7 +36,7 @@ struct TreeNode
 };
 ```
 
-# Tree Terminology
+# Tree Terminology:
 
 ```
          	     A
