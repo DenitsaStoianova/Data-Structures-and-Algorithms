@@ -39,8 +39,45 @@ struct TreeNode
 # Tree Terminology
 
 ```
-
-
+         	     A
+                   /   \
+                  B     C
+                 / \   / \ 
+                D   E F   G 
+                   / \
+                  H   I
+		  
+1. Root - The root is the special node from which all other nodes "descend". Each tree has a single root node.
+   Root: A
+2. Path - A path is a sequence of edges between nodes.
+   Path between nodes A and H - A B E H
+3. Siblings - Nodes with the same parent are siblings.
+   Siblings: D and E, F and G
+4. Ancestor of node n - Any node y on the (unique) path from root r to node n is an ancestor of node n. Every node is an ancestor of itself.
+   Ancestors of F: C A
+5. Descendent of n - Any node y for which n is an ancestor of y. Every node is an descendent of itself.
+   Descendens of B: D and E
+6. Subtrees of node n - Subtrees of node n are the trees whose roots are the children of n.
+   Subtrees of A: 
+         	  B         C
+                 / \   	   / \ 
+                D   E	  F   G 
+                   / \
+                  H   I
+7. Degree of node n - The degree of node n is the number of children node n has.
+   Degree of C: 2
+8. Leaf node - A leaf node is a node with no children.
+   Leaf nodes: D H I F G
+9. External node - An external node is a node with no children (same as a leaf node).
+   External nodes: D H I F G
+10. Internal node - An internal node is a nonleaf node.
+    Internal nodes: B E F C
+11. Depth of node n - The depth of node n is the length of the path from root to node n.
+    Depth of E: 3
+12. Level d - Level d is the nodes at depth d.
+    Level of tree: 4
+13. Height of tree T - The height of tree T is the largest depth of any node in T.
+    Height of tree: 4
 ```
 
 # Main applications of trees:
