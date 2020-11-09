@@ -19,6 +19,7 @@
 5) Сумата на всички възли
 
 ```
+Примерно дърво:
                      8
                    /   \
                   3     2
@@ -26,6 +27,12 @@
                 9   6 7   5 
                    / \
                   4   7
+Резултат:
+1. findHeight(root) -> 4
+2. findLevel(root, root->left->right, 1) -> 3
+3. findCount(root) -> 9 
+4. findInternalNodesCount(root) -> 4
+5. findCount(root) -> 51
 ```
 
 **Задача 2:**
