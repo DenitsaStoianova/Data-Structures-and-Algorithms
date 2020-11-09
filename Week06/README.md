@@ -74,6 +74,28 @@
 
 2) сумата от лявото и дясното му поддърво
 
+```
+Примерно дърво 1:                                            
+                    10                            
+                   /   \
+                  7     3
+                 / \   /  
+                6   1 3    
+Резултат:
+1. checkChildrenSum(root) -> true
+2. checkSubtreeSum(root) -> false
+
+Примерно дърво 2:                                            
+                    30                            
+                   /   \
+                  10     5
+                 / \      \
+                4   6      5
+Резултат:
+1. checkChildrenSum(root) -> false
+2. checkSubtreeSum(root) -> true
+
+```
 
 **Задача 4:**
 
