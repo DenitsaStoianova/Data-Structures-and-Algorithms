@@ -10,3 +10,5 @@
 [Седмица 4 - Стек (задачи със списъци)](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week04/README.md)
 
 [Седмица 5 - Стек (оценка на аритметичен израз, работа с файлове)](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week05/README.md)
+
+[Седмица 6 - Двоични дървета](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week06/README.md)
