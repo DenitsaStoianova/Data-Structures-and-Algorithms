@@ -4,7 +4,7 @@
 
 [Имплементация на двоично дърво](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week06/BinaryTreeImplementation)
 
-Основни видове обхождания
+[Основни видове обхождания](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week06/TreeTraversals/TreeTraversals.cpp)
 
 **Задача 1:**
 
