@@ -1,5 +1,7 @@
 # Седмица 6 - Двоични дървета
 
+[Основна теория за дървета](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week06/BinaryTreeTheory/README.md)
+
 Имплементация на двоично дърво
 
 Основни видове обхождания
