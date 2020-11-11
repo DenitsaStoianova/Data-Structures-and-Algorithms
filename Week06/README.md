@@ -2,7 +2,7 @@
 
 [Основна теория за дървета](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week06/BinaryTreeTheory/README.md)
 
-Имплементация на двоично дърво
+[Имплементация на двоично дърво](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week06/BinaryTreeImplementation)
 
 Основни видове обхождания
 
