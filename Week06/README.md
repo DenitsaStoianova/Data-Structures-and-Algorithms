@@ -6,6 +6,8 @@
 
 [Основни видове обхождания](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week06/TreeTraversals/TreeTraversals.cpp)
 
+[Решения на задачите](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week06/Solutions)
+
 **Задача 1:**
 
 Напишете функция, която за дадено двоично дърво намира:
