@@ -23,11 +23,18 @@ bool checkSum(TreeNode* &root)
 		return true;
 	}
 
-	if (root->left != nullptr && root->right != nullptr
-		&& root->left->data + root->right->data != root->data)
+	if (root->right != nullptr && root->left == nullptr && root->data != root->right->data)
 	{
 		return false;
 	}
+	else if (root->left != nullptr && root->right == nullptr && root->data != root->left->data)
+	{
+		return false;
+	}
+	else if (root->right != nullptr && root->left != nullptr && root->data != root->right->data + root->left->data)
+	{
+		return false;
+	}	
 
 	return checkSum(root->left) && checkSum(root->right);
 }
