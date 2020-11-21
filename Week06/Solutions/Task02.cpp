@@ -114,7 +114,7 @@ int findLongestSum(TreeNode* &root)
 	}
 
 	int maxSum = INT_MIN, maxLength = 0;
-	findSumHelp(root, 0, 0, maxSum, maxLength);
+	findSumHelp(root, 0, 1, maxSum, maxLength);
 	return maxSum;
 }
 
