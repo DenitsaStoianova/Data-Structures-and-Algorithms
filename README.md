@@ -14,3 +14,5 @@
 [Седмица 6 - Двоични дървета](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week06/README.md)
 
 [Седмица 7 - Двоични наредени дървета](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week07/README.md)
+
+[Седмица 8 - Решаване на общи задачи (Подготовка за контролно №1)](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week08/README.md)
