@@ -71,8 +71,11 @@ N -> the total number of nodes
 # Complete Binary Tree
 
 ***A complete binary tree is just like a full binary tree, but with two major differences:
+
 Every level must be completely filled
+
 All the leaf elements must lean towards the left.
+
 The last leaf element might not have a right sibling i.e. a complete binary tree doesn't have to be a full binary tree.***
 
 
