@@ -70,20 +70,79 @@ N -> the total number of nodes
 
 # Complete Binary Tree
 
-***A complete binary tree is just like a full binary tree, but with two major differences:
+***A complete binary tree is just like a full binary tree, but with two major differences - 1) Every level must be completely filled, 2) All the leaf elements must lean towards the left, 3) The last leaf element might not have a right sibling i.e. a complete binary tree doesn't have to be a full binary tree.***
 
-Every level must be completely filled
+```
+	             A 
+                   /   \
+                  B     C
+                 / \   / 
+                D   E F   
+```
 
-All the leaf elements must lean towards the left.
+***How a Complete Binary Tree is Created?***
 
-The last leaf element might not have a right sibling i.e. a complete binary tree doesn't have to be a full binary tree.***
+```
+1. Select the first element of the list to be the root node. (no. of elements on level-I: 1)
 
+2. Put the second element as a left child of the root node and the third element as the right child. (no. of elements on level-II: 2)
 
+3. Put the next two elements as children of the left node of the second level. Again, put the next two elements as children of the right node of the second level (no. of elements on level-III: 4) elements).
 
+4. Keep repeating until you reach the last element.
+```
 
+***A complete binary tree has an interesting property that we can use to find the children and parents of any node.***
 
+```
+- If the index of any element in the array is I
+- The element in the index 2*I + 1 will become the left child 
+- The element in 2*I + 2 index will become the right child. 
+- Also, the parent of any element at index I is given by the lower bound of (I-1)/2.
+```
 
+# Degenerate or Pathological Tree
 
+***A degenerate or pathological tree is the tree having a single child either left or right:***
+
+```
+	             A 
+                   /   
+                  B     
+                   \    
+                    C
+		     \
+		      D
+```
+
+# Skewed Binary Tree
+
+***A skewed binary tree is a pathological/degenerate tree in which the tree is either dominated by the left nodes or the right nodes. 
+Thus, there are two types of skewed binary tree: left-skewed binary tree and right-skewed binary tree.***
+
+***Left-skewed binary tree:**
+
+```
+	            A 
+                   /   
+                  B     
+                 /   
+                C
+	       /
+	      D
+```
+
+***Right-skewed binary tree:**
+
+```
+	            A 
+                     \
+		      B
+		       \
+		        C
+			 \
+			  D
+```
 
 
 
