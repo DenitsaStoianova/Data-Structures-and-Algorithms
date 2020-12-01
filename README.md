@@ -16,3 +16,5 @@
 [Седмица 7 - Двоични наредени дървета](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week07/README.md)
 
 [Седмица 8 - Решаване на общи задачи (Подготовка за контролно №1)](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week08/README.md)
+
+[Седмица 9 - Различни видове дървета (Дървета с произволен брой наследници)](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week09/README.md)
