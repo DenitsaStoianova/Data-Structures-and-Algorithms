@@ -2,6 +2,8 @@
 
 [Основна теория за различните видове двоични дървета](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week09/TreesTheory/README.md)
 
+[Решения на задачите](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week09/Solutions)
+
 **Задача 1:**
 
 Напишете функция, която проверява дали дадено двоично дърво е:
