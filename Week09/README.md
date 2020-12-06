@@ -1,6 +1,6 @@
 # Седмица 9 - Различни видове дървета (Дървета с произволен брой наследници)
 
-Основна теория за различните видове двоични дървета
+[Основна теория за различните видове двоични дървета](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week09/TreesTheory/README.md)
 
 **Задача 1:**
 
