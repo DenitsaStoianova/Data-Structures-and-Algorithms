@@ -1,6 +1,15 @@
 #pragma once
 #include <vector>
 
+/*
+Представяне на дървото:
+                     10
+                   /  |  \
+                  4   3   5 
+                 / \    / | \ 
+                2   6  9  2  7
+*/
+
 class Tree
 {
 public:
