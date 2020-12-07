@@ -2,6 +2,8 @@
 
 [Имплементация](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week07/Implementation)
 
+[Решения на задачите](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week07/Solutions)
+
 **Задача 1:**
 
 Напишете функция, която изтрива елемент от двоично наредено дърво по подадена стойност.
