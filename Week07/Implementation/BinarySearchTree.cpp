@@ -87,7 +87,7 @@ BinarySearchTree::TreeNode* BinarySearchTree::removeHelp(TreeNode* &treeRoot, in
 		return nullptr;
 	}
 
-	if (data < treeRoot->data)
+	if (data < treeRoot->data) // Първо стигаме до възела, който искаме да изтрием
 	{
 		treeRoot->left = this->removeHelp(treeRoot->left, data);
 	}
@@ -97,27 +97,28 @@ BinarySearchTree::TreeNode* BinarySearchTree::removeHelp(TreeNode* &treeRoot, in
 	}
 	else // data == treeRoot->data
 	{
-		if (treeRoot->left == nullptr)
+		if (treeRoot->left == nullptr) // Проверяваме дали възела, който искаме да изтрием има само десен наследник (обхваща и случая, когато възела няма наследници)
 		{
 			TreeNode* nodeToDel = treeRoot->right;
 			delete treeRoot;
 			return nodeToDel;
 		}
-		else if (treeRoot->right == nullptr)
+		else if (treeRoot->right == nullptr) // Проверяваме дали възела, който искаме да изтрием има само ляв наследник
 		{
 			TreeNode* nodeToDel = treeRoot->left;
 			delete treeRoot;
 			return nodeToDel;
 		}
 
-		TreeNode* minValueNode = getMinNode(treeRoot->right);
-		treeRoot->data = minValueNode->data;
-		treeRoot->right = this->removeHelp(treeRoot->right, minValueNode->data);
+		// Когато възела, който искаме да изтрием има 2 наследника - при изтриването му трябва да бъде запазена наредбата в дървото
+		TreeNode* minValueNode = getMinNode(treeRoot->right); // за целта се намира най-малката стойност в дясното поддърво на възела
+		treeRoot->data = minValueNode->data; // и възела, който искаме да изтрием приема тази стойност 
+		treeRoot->right = this->removeHelp(treeRoot->right, minValueNode->data); // след това отиваме да я изтрием от дървото  
 	}
 	return treeRoot;
 }
 
-BinarySearchTree::TreeNode* BinarySearchTree::getMinNode(TreeNode* treeRoot)
+BinarySearchTree::TreeNode* BinarySearchTree::getMinNode(TreeNode* treeRoot) // най-малката стойност се намира възможно най-вляво
 {
 	TreeNode* current = treeRoot;
 	while (current != nullptr && current->left != nullptr)
