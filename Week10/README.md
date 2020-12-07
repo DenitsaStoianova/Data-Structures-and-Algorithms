@@ -12,6 +12,15 @@
 
 ```
 Примерно дърво:
+			              trees
+			           /          \
+ 			       binary          trees   
+			       /    \         /     \
+			   they      are    very     cool
+			  /     \    /     /    \       \
+ 			they   have at   most   two    children
+
+
               trees
            /          \
        binary          trees   
