@@ -1,6 +1,6 @@
 # Седмица 7 - Двоични наредени дървета
 
-[Имплементация](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week07/Implementation)
+[Имплементация на двоично наредено дърво](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week07/Implementation)
 
 [Решения на задачите](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/tree/main/Week07/Solutions)
 
