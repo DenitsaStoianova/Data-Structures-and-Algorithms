@@ -19,15 +19,6 @@
 			   they      are    very     cool
 			  /     \    /     /    \       \
  			they   have at   most   two    children
-
-
-              trees
-           /          \
-       binary          trees   
-       /    \         /     \
-   they      are    very     cool
-  /     \    /     /    \       \
-they   have at   most   two    children
 Резултат:
 1 -> trees
 2 -> binary trees
