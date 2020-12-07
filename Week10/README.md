@@ -60,3 +60,28 @@ Level: 4 Sum: 20
 Sum of averages: 23.7917
 ```
 
+**Задача 4:**
+
+Дадено е дърво с произволен брой наследници. За всеки възел от дървото изведете информация в следния вид:
+
+Node: [Level: ] [Number of children: ; Children values: ]
+
+Всички леста се извеждат накрая във вида:
+
+[Leaves: ]
+
+```
+Примерно дърво :
+				 10
+			      /  /\  \
+		             /  /  \  \
+			    4   2   5  8
+		           / \     /|\
+			  /   \   / | \
+			 9     7 3  4  6
+Резултат:
+Node: 10 [Level: 1] [Number of children: 4; Children values: 4, 2, 5, 8]
+Node: 4 [Level: 2] [Number of children: 2; Children values: 9, 7]
+Node: 5 [Level: 2] [Number of children: 3; Children values: 3, 4, 6]
+[Leaves: 2, 8, 9, 7, 3, 4, 6]
+```
