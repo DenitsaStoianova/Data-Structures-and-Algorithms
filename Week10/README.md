@@ -74,8 +74,8 @@ Sum of averages: 23.7917
 			      /   \   / | \
 			     9     7 3  4  6	
 Резултат:
-1 -> Sum of odd positioned: 10
-2 -> Sum of even positioned: 10
-3 -> Sum of odd positioned: 18
+Level 1 -> Sum of odd positioned: 10
+Level 2 -> Sum of even positioned: 10
+Level 3 -> Sum of odd positioned: 18
 ```
 
