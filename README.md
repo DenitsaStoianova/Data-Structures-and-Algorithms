@@ -18,3 +18,5 @@
 [Седмица 8 - Решаване на общи задачи (Подготовка за контролно №1)](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week08/README.md)
 
 [Седмица 9 - Различни видове дървета (Дървета с произволен брой наследници)](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week09/README.md)
+
+[Седмица 10 - Дървета (Задачи с обхождане в ширина)](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week10/README.md)
