@@ -6,6 +6,12 @@
 
 - Колизии
 
-- Начини за справяне с колизиите - Open Addressing and Linear Chaining
+- Начини за справяне с колизиите 
+
+  1. Open Addressing - Linear Probing, Quadratic Probing, Double Hashing
+  
+  2. Linear Chaining
+  
+- Load Factor  
 
 - Представяне на хеш таблиците
