@@ -6,7 +6,7 @@
 
 - Колизии
 
-- Начини за справяне с колизиите: 
+- Начини за справяне с колизиите и техните предимства и недостатъци: 
 
   - Open Addressing - Linear Probing, Quadratic Probing, Double Hashing
   
