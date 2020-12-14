@@ -6,7 +6,7 @@
 
 - Колизии
 
-- Начини за справяне с колизиите 
+- Начини за справяне с колизиите: 
 
   - Open Addressing - Linear Probing, Quadratic Probing, Double Hashing
   
