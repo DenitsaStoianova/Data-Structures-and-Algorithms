@@ -8,9 +8,9 @@
 
 - Начини за справяне с колизиите 
 
-  1. Open Addressing - Linear Probing, Quadratic Probing, Double Hashing
+  - Open Addressing - Linear Probing, Quadratic Probing, Double Hashing
   
-  2. Linear Chaining
+  - Linear Chaining
   
 - Load Factor  
 
