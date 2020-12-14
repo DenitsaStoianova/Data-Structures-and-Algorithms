@@ -10,7 +10,7 @@
 
   - Open Addressing - Linear Probing, Quadratic Probing, Double Hashing
   
-  - Linear Chaining
+  - Separate Chaining
   
 - Load Factor  
 
