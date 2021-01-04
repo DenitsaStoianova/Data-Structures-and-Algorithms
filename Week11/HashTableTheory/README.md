@@ -47,10 +47,10 @@ Challenges in Linear Probing:
 1.	Primary Clustering - many consecutive elements form groups and it starts taking time to find a free slot or to search an element.  
 2.	Secondary Clustering – two records do only have the same collision chain if their initial position is the same.
 
-**Quadratic Probing:**
+***Quadratic Probing:***
 We look for i2‘th slot in i’th iteration
 
-**Double hashing:**
+***Double hashing:***
 We use another hash function hash2(x) and look for i*hash2(x) slot in i’th rotation. 
 
 **2. Linear Chaining** 
