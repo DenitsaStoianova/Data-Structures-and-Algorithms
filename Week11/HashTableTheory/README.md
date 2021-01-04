@@ -30,25 +30,27 @@ A good hash function has the following characteristics.
 ```
 Since a hash function gets us a small number for a big key, there is possibility that two keys result in same value. 
 The situation where a newly inserted key maps to an already occupied slot in hash table is called collision.
-Ways to handle collisions:
-1.	Open Addressing 
-2.	Linear Chaining 
 ```
 
-# Open Addressing 
+# Ways to handle collisions:
+
+**1. Open Addressing** 
 All elements are stored in the hash table itself. When searching for an element, we one by one examine table slots 
 until the desired element is found or it is clear that the element is not in the table.
 
 Open Addressing can be done in the following ways:
+
 **Linear Probing:** 
 In linear probing, collision is resolved by checking the next slot.
 Challenges in Linear Probing:
 1.	Primary Clustering - many consecutive elements form groups and it starts taking time to find a free slot or to search an element.  
 2.	Secondary Clustering – two records do only have the same collision chain if their initial position is the same.
+
 **Quadratic Probing**
+
 **Double hashing**
 
-# Linear Chaining 
+**2. Linear Chaining** 
 Each cell of hash table point to a linked list of records that have same hash function value.
 Chaining is simple, but requires additional memory outside the table.
 
