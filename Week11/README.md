@@ -2,6 +2,8 @@
 
 ***Теория:***
 
+[Основна теория за хеш таблици] (https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week11/HashTableTheory/README.md)
+
 - Хеш таблици
 
 - Хеш функции и хеш стойности
