@@ -1,6 +1,7 @@
 # What is Hash Table? 
 ```
-Hash table is a data structure that represents data in the form of key-value pairs. Each key is mapped to a value in the hash table. The keys are used for indexing the values/data. A similar approach is applied by an associative array.
+Hash table is a data structure that represents data in the form of key-value pairs. Each key is mapped to a value in the hash table.
+The keys are used for indexing the values/data. A similar approach is applied by an associative array.
 ```
 
 # How do we represent data?
