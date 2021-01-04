@@ -62,15 +62,11 @@ Chaining is simple, but requires additional memory outside the table.
 |	Separate Chaining	                                      | Open Addressing |
 |-------------------------------------------------------- | ------------------------------------------------------------------------
 |	Simpler to implement.	                                  | Open Addressing requires more computation. |
-|	Hash table never fills up,we can always                 | In open addressing, table may become full. |
-| add more elements to chain.	                            |  |
+|	Hash table never fills up,we can always add more elements to chain. | In open addressing, table may become full. |
 |	Less sensitive to the hash function or load factors.	  | Requires extra care for to avoid clustering and load factor. |
-|	Mostly used when it is unknown how many and how         | Used when the frequency and number of keys  is known. |
-| frequently keys may be inserted or deleted.             | |
-| Cache performance is not good as keys are stored        | Better cache performance as everything is stored in the same table. |
-| using linked list.                                      |	 |
-|	Wastage of Space (Some Parts of hash table in chaining  | A slot can be used even if an input doesn’t map to it. |
-| are never used).	                                      |  |
+|	Mostly used when it is unknown how many and how frequently keys may be inserted or deleted. | Used when the frequency and number of keys  is known. |
+| Cache performance is not good as keys are stored using linked list.| Better cache performance as everything is stored in the same table. |
+|	Wastage of Space (Some Parts of hash table in chaining are never used).	 | A slot can be used even if an input doesn’t map to it. |
 |	Uses extra space for links.                             | 	No links in Open addressing |
 
 
