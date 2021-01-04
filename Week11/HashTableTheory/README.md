@@ -35,12 +35,14 @@ The situation where a newly inserted key maps to an already occupied slot in has
 # Ways to handle collisions:
 
 **1. Open Addressing** 
+
 All elements are stored in the hash table itself. When searching for an element, we one by one examine table slots 
 until the desired element is found or it is clear that the element is not in the table.
 
 Open Addressing can be done in the following ways:
 
 **Linear Probing:** 
+
 In linear probing, collision is resolved by checking the next slot.
 Challenges in Linear Probing:
 1.	Primary Clustering - many consecutive elements form groups and it starts taking time to find a free slot or to search an element.  
@@ -51,6 +53,7 @@ Challenges in Linear Probing:
 **Double hashing**
 
 **2. Linear Chaining** 
+
 Each cell of hash table point to a linked list of records that have same hash function value.
 Chaining is simple, but requires additional memory outside the table.
 
