@@ -21,9 +21,9 @@ the index in the hash table.
 # What is a good hash function?
 ```
 A good hash function has the following characteristics.
-1.	It should not generate keys that are too large and the bucket space is small. Space is wasted.
-2.	The keys generated should be neither very close nor too far in range.
-3.	The collision must be minimized as much as possible.
+1.It should not generate keys that are too large and the bucket space is small. Space is wasted.
+2.The keys generated should be neither very close nor too far in range.
+3.The collision must be minimized as much as possible.
 ```
 
 # What is collision?
@@ -41,16 +41,17 @@ until the desired element is found or it is clear that the element is not in the
 
 Open Addressing can be done in the following ways:
 
-**Linear Probing:** 
-
+***Linear Probing:*** 
 In linear probing, collision is resolved by checking the next slot.
 Challenges in Linear Probing:
 1.	Primary Clustering - many consecutive elements form groups and it starts taking time to find a free slot or to search an element.  
 2.	Secondary Clustering – two records do only have the same collision chain if their initial position is the same.
 
-**Quadratic Probing**
+**Quadratic Probing:**
+We look for i2‘th slot in i’th iteration
 
-**Double hashing**
+**Double hashing:**
+We use another hash function hash2(x) and look for i*hash2(x) slot in i’th rotation. 
 
 **2. Linear Chaining** 
 
@@ -58,7 +59,19 @@ Each cell of hash table point to a linked list of records that have same hash fu
 Chaining is simple, but requires additional memory outside the table.
 
 
-
+|	Separate Chaining	                                      | Open Addressing
+----------------------------------------------------------------------------------------------------------------------------------
+|	Simpler to implement.	                                  | Open Addressing requires more computation.
+|	Hash table never fills up,we can always                 | In open addressing, table may become full.
+| add more elements to chain.	                            | 
+|	Less sensitive to the hash function or load factors.	  | Requires extra care for to avoid clustering and load factor.
+|	Mostly used when it is unknown how many and how         | Used when the frequency and number of keys  is known.
+| frequently keys may be inserted or deleted.             |
+| Cache performance is not good as keys are stored        | Better cache performance as everything is stored in the same table.
+| using linked list.                                      |	
+|	Wastage of Space (Some Parts of hash table in chaining  | A slot can be used even if an input doesn’t map to it.
+| are never used).	                                      | 
+|	Uses extra space for links.                             | 	No links in Open addressing
 
 
 
