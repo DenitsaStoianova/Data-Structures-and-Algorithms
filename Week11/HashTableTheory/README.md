@@ -70,8 +70,19 @@ Chaining is simple, but requires additional memory outside the table.
 |	Uses extra space for links.                                             | 	No links in Open addressing          |
 
 
+# What is load factor?
+```
+Let
+n	=	Number of keys stored in hash table
+m	=	Number of slots in hash table
+a	=	n/m
 
-
+a = average number of elements in a chain, or load factor
+a can be less than or greater than 1
+If m is proportional to n (that is, m is chosen as a linear function of n), then n = O(m).
+In that case,
+a = n/m = O(m)/m = O(1)
+```
 
 
 
