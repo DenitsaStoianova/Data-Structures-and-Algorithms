@@ -72,7 +72,6 @@ Chaining is simple, but requires additional memory outside the table.
 
 # What is load factor?
 ```
-Let
 n = Number of keys stored in hash table
 m = Number of slots in hash table
 a = n/m
