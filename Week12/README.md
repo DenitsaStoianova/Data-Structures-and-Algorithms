@@ -50,7 +50,8 @@ Mango - 3
 John – Apple, Banana, Mango
 Sam – Banana, Pineapple
 Kim – Mango, Banana, Apple, Mango, Pineapple, Mango 
-
+```
+```
 Вход:
 Go shop:
 John
