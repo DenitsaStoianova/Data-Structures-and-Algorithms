@@ -14,7 +14,6 @@ and @Steph and we are in the same class. In the weekend I and @Kevin sometimes  
 Write soon and tell me all about yourself, your friends and your family.
 Best wishes
 @Sara  
-
 Резултат:
 Вход: Kevin                                                  Вход: Tom 
 Изход: Kevin is mentioned 3 times at the text.               Изход: Tom is not mentioned at the text.
@@ -43,10 +42,10 @@ Word vector length: 4  (Пресмятяне: sqrt(2^2 + 2^2 + 1^2 + 1^2 + 1^2 +
 ```
 Пример:
 Склад:
-Apple 5
-Banana 2
-Pineapple 4
-Mango 3
+Apple - 5
+Banana - 2
+Pineapple - 4
+Mango - 3
 Клиенти:
 John – Apple Banana Mango
 Sam – Banana Pineapple
