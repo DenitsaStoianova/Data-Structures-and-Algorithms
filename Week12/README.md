@@ -50,9 +50,31 @@ Mango - 3
 John – Apple, Banana, Mango
 Sam – Banana, Pineapple
 Kim – Mango, Banana, Apple, Mango, Pineapple, Mango 
-Клиенти, които са закупили всички желани продукти:
+
+Вход:
+Go shop:
 John
 Sam
+Kim
+
+Резултат:
+Client John buy:
+Apple
+Banana
+Mango
+Client Sam buy:
+Banana
+Pineapple
+Client Kim buy:
+Mango
+Product Banana is not available.
+Apple
+Mango
+Pineapple
+Product Mango is not available.
+Clients bought all products:
+Sam
+John
 ```
 
 
