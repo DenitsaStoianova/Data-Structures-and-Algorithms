@@ -9,7 +9,7 @@
 Hi @John,
 Nice to meet you! My name’s @Sara and I live in London with my mum @Anne, my little brother @Kevin and my father @Jo.
 We live in a small house in Greenwich. I live near my school so I walk to school every day. My best friends are @Kim
-and @Steph and we are in the same class. In the weekend I and @Kevin sometimes  play in hockey matches. Often I, @Kim,
+and @Steph and we are in the same class. In the weekend I and @Kevin sometimes play in hockey matches. Often I, @Kim,
 @Steph and @Kevin go roller-skating at the park.
 Write soon and tell me all about yourself, your friends and your family.
 Best wishes
