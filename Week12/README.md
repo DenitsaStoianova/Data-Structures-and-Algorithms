@@ -47,9 +47,9 @@ Banana - 2
 Pineapple - 4
 Mango - 3
 Клиенти:
-John – Apple Banana Mango
-Sam – Banana Pineapple
-Kim – Mango Banana Apple Mango Pineapple Mango 
+John – Apple, Banana, Mango
+Sam – Banana, Pineapple
+Kim – Mango, Banana, Apple, Mango, Pineapple, Mango 
 Клиенти, които са закупили всички желани продукти:
 John
 Sam
