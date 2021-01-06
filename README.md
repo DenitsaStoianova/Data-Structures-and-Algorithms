@@ -22,3 +22,5 @@
 [Седмица 10 - Дървета (Задачи с обхождане в ширина)](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week10/README.md)
 
 [Седмица 11 - Хеш таблици](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week11/README.md)
+
+[Седмица 12 - Хеш таблици (приложения)](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week12/README.md)
