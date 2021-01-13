@@ -1,5 +1,7 @@
 # Седмица 13 - TrieMap
 
+[TrieMap - визуализация](https://www.cs.usfca.edu/~galles/visualization/Trie.html)
+
 ***Чрез директно използване на възлите на TrieMap да се решат следните задачи:***
 
 **Задача 1:**
