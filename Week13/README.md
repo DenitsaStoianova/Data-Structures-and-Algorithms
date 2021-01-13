@@ -29,7 +29,12 @@
          /           *           *                                     
        [e]                                                                                                                        
         *  
-    
+Думи, които съдържа:
+codable
+coder
+coding
+com
+course
 ```
 
 **Задача 2:**
@@ -62,8 +67,10 @@ Hello
 HelloWorld
 HiTechWorld
 
-Вход: HT
-Изход: HiTech
-       HiTechCity
-       HiTechWold
+Вход: 
+HT
+Изход:
+HiTech
+HiTechCity
+HiTechWold
 ```
