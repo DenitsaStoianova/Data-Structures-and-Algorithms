@@ -121,7 +121,7 @@ int main()
 		clientName = clientsQueue.front();
 		clientsQueue.pop();
 
-		std::cout << "Client " << clientName << " buy:\n";
+		std::cout << "=> Client " << clientName << " buy:\n";
 		clientListSize = clients[clientName].size();
 		while (clientListSize > 0)
 		{
@@ -143,7 +143,7 @@ int main()
 		}
 	}
 
-	std::cout << "Clients bought all products: \n";
+	std::cout << "=> Clients bought all products: \n";
 	for (std::unordered_map<std::string, std::queue<std::string>>::iterator p = clients.begin(); p != clients.end(); p++)
 	{
 		if (p->second.size() == 0)
