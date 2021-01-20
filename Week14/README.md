@@ -1,5 +1,6 @@
 # Седмица 14 - Графи
 
+***Примерен граф:***
 ![alt text](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week14/GraphsPhotos/simpleGraph.png)
 
 
