@@ -1,5 +1,8 @@
 # Седмица 14 - Графи
 
+![alt text](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week14/GraphsPhotos/simpleGraph.png)
+
+
 **Задача 1:**
 
 Напишете функция, която за даден граф реализира:
