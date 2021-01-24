@@ -26,3 +26,7 @@
 [Седмица 12 - Хеш таблици (приложения)](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week12/README.md)
 
 [Седмица13 - TrieMap](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week13/README.md)
+
+[Седмица 14 - Графи](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week14/README.md)
+
+[Седмица 15 - Структури от данни (преговор)](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week15/README.md)
