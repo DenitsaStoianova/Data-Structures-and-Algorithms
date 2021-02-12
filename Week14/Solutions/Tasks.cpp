@@ -65,7 +65,7 @@ Graph<T>::~Graph()
 }
 
 template<typename T>
-void Graph<T>::addVertex(const T & value) 
+void Graph<T>::addVertex(const T& value) 
 {
 	VertexNode<T> newVertex(this->currentVertexCount, value); // създаване на възел по подадена стойност
 	this->adjacencyList[this->currentVertexCount].push_back(newVertex);
@@ -79,7 +79,7 @@ void Graph<T>::addEdge(const VertexNode<T>& from, const VertexNode<T>& to)
 }
 
 template<typename T>
-void Graph<T>::BFS(const VertexNode<T> & start)
+void Graph<T>::BFS(const VertexNode<T>& start)
 {
 	bool* visited = new bool[this->maxVerticesCount]; // маркираме вече посетените възли 
 	for (int i = 0; i < this->maxVerticesCount; i++)
@@ -113,7 +113,7 @@ void Graph<T>::BFS(const VertexNode<T> & start)
 }
 
 template<typename T>
-void Graph<T>::DFS(const VertexNode<T> & start)
+void Graph<T>::DFS(const VertexNode<T>& start)
 {
 	bool* visited = new bool[this->maxVerticesCount];
 	for (int i = 0; i < this->maxVerticesCount; i++)
