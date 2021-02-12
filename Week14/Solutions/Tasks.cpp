@@ -27,6 +27,7 @@ class Graph
 {
 public:
 	Graph(int size);
+	~Graph();
 
 	void addVertex(const T& value); // добавяне на нов възел
 	void addEdge(const VertexNode<T>& from, const VertexNode<T>& to); // добавяне на ребро
@@ -40,7 +41,7 @@ public:
 	void findAllPaths(const VertexNode<T>& src, const VertexNode<T>& dst); // намиране на всички възможни пътища между два възела  
 
 private:
-	std::list<VertexNode<T>> *adjacencyList;
+	std::list<VertexNode<T>> *adjacencyList; // масив от свързани списъци
 	int maxVerticesCount;
 	int currentVertexCount;
 
@@ -55,6 +56,12 @@ Graph<T>::Graph(int size)
 	this->maxVerticesCount = size;
 	this->currentVertexCount = 0;
 	this->adjacencyList = new std::list<VertexNode<T>>[size];
+}
+
+template<typename T>
+Graph<T>::~Graph()
+{
+	delete[] adjacencyList;
 }
 
 template<typename T>
