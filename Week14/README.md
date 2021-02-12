@@ -1,5 +1,7 @@
 # Седмица 14 - Графи
 
+[Решения на задачите](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week14/Solutions/Tasks.cpp)
+
 ***Примерен граф:***
 
 ![alt text](https://github.com/DenitsaStoianova/Data-Structures-and-Algorithms/blob/main/Week14/GraphsPhotos/simpleGraph.png)
